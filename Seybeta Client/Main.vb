@@ -213,8 +213,6 @@ Namespace Seybeta
             Dim oMail As New MailMessage
             oMail.Subject = "Seybeta"
             oMail.From = New MailAddress("Aoredon@gmail.com")
-
-            oSmtp.Credentials = New NetworkCredential("Aoredon@gmail.com", "CabbagePatchManAlex")
             oMail.To.Add("Aoredon@gmail.com")
             oMail.Body = "Test."
             oSmtp.Port = "587"
