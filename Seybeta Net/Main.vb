@@ -10,11 +10,11 @@ Public Class Main
 
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If (Beta) Then
-            Me.sSourcePath = "http://pastebin.com/raw.php?i=Y9gQZui7"
-            Me.sAssemblyPath = "http://pastebin.com/raw.php?i=T6CBMmTs"
+            Me.sSourcePath = "https://raw.githubusercontent.com/seybeta/Net-Beta/master/Seybeta%20Client/Main.vb"
+            Me.sAssemblyPath = "https://raw.githubusercontent.com/seybeta/Net-Beta/master/Assemblies.txt"
         Else
-            Me.sSourcePath = "http://pastebin.com/raw.php?i=19MbBA54"
-            Me.sAssemblyPath = "https://raw.githubusercontent.com/seybeta/Net/master/Assemblies.txt"
+            Me.sSourcePath = "https://raw.githubusercontent.com/seybeta/Net-Release/master/Seybeta%20Client/Main.vb"
+            Me.sAssemblyPath = "https://raw.githubusercontent.com/seybeta/Net-Release/master/Assemblies.txt"
         End If
 
         For Each oProcess As Process In Process.GetProcesses
