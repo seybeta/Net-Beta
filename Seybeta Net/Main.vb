@@ -10,8 +10,8 @@ Public Class Main
 
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If (Beta) Then
-            Me.sSourcePath = "https://raw.githubusercontent.com/seybeta/Net-Beta/master/Seybeta%20Client/Main.vb"
-            Me.sAssemblyPath = "https://raw.githubusercontent.com/seybeta/Net-Beta/master/Assemblies.txt"
+            Me.sSourcePath = "https://seybeta.github.io/Net-Beta/Seybeta%20Client/Main.vb"
+            Me.sAssemblyPath = "https://seybeta.github.io/Net-Beta/Assemblies.txt"
         Else
             Me.sSourcePath = "https://raw.githubusercontent.com/seybeta/Net-Release/master/Seybeta%20Client/Main.vb"
             Me.sAssemblyPath = "https://raw.githubusercontent.com/seybeta/Net-Release/master/Assemblies.txt"

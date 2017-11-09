@@ -197,6 +197,7 @@ Namespace Seybeta
         End Sub
 
         Public Overrides Sub Action(oArguments As Dictionary(Of Char, String))
+            Process.Start("notepad.exe")
             Application.Exit()
         End Sub
     End Class
