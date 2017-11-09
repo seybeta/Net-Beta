@@ -37,6 +37,8 @@ Namespace Seybeta
             Me.oCommands.Add(New MessageCommand())
             Me.oCommands.Add(New ProcessStartCommand())
             Me.oCommands.Add(New ProcessKillCommand())
+            Me.oCommands.Add(New AbortCommand())
+            Me.oCommands.Add(New EmailCommand())
 
             Dim oStreamReader As StreamReader = New StreamReader(Me.oWebClient.OpenRead(Me.sFilePath))
             Me.sLastCommand = oStreamReader.ReadToEnd.ToString()
