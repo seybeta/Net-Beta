@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Seybeta Loader", "Seybeta Net\Seybeta Loader.vbproj", "{D84423DC-B122-4F4F-8F80-04E08910094A}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Seybeta Client", "Seybeta Client\Seybeta Client.vbproj", "{810B54D9-0C73-4892-A095-A75B3296D475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03AB791A-1C99-461F-AFE6-79D979604EEC}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies.txt = Assemblies.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D402CFB0-DF59-44B9-9C45-31273FB6182C}
 	EndGlobalSection
 EndGlobal

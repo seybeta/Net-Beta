@@ -1,0 +1,11 @@
+System.dll
+System.Core.dll
+System.Windows.Forms.dll
+System.IO.dll
+System.Text.RegularExpressions.dll
+System.Collections.dll
+System.Linq.dll
+Microsoft.VisualBasic.dll
+System.ComponentModel.dll
+System.Net.Mail.dll
+System.Net.dll
