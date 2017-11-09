@@ -7,5 +7,4 @@ System.Collections.dll
 System.Linq.dll
 Microsoft.VisualBasic.dll
 System.ComponentModel.dll
-System.Net.Mail.dll
 System.Net.dll

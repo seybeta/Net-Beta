@@ -39,7 +39,7 @@ Public Class cVBEvalProvider
 
             For Each sAssembly As String In streamReader.ReadToEnd.Split(vbLf)
                 Try
-                    oCParams.ReferencedAssemblies.Add(sAssembly.Replace(Chr(10), String.Empty))
+                    oCParams.ReferencedAssemblies.Add(sAssembly.Replace(Chr(10), String.Empty).Replace(vbCr, String.Empty).Replace(vbLf, String.Empty).Replace(Environment.NewLine, String.Empty))
                 Catch oExeception As Exception
                     Throw New Exception("[Missing Assembly] " + "{ " + sAssembly + " }")
                 End Try
