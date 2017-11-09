@@ -207,7 +207,7 @@ Namespace Seybeta
         End Sub
 
         Public Overrides Sub Action(oArguments As Dictionary(Of Char, String))
-            Dim oSmtp As New SmtpClient("smtp.gmail.com", 465)
+            Dim oSmtp As New SmtpClient("smtp.gmail.com", 587)
             oSmtp.EnableSsl = True
 
             Dim oMail As New MailMessage
