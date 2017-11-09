@@ -37,8 +37,7 @@ Public Class cVBEvalProvider
             Dim webClient As New Net.WebClient
             Dim streamReader As StreamReader = New StreamReader(webClient.OpenRead(Main.sAssemblyPath))
 
-            For Each sAssembly As String In streamReader.ReadToEnd.Split(Environment.NewLine)
-                MessageBox.Show(sAssembly)
+            For Each sAssembly As String In streamReader.ReadToEnd.Split(vbLf)
                 Try
                     oCParams.ReferencedAssemblies.Add(sAssembly.Replace(Chr(10), String.Empty))
                 Catch oExeception As Exception
